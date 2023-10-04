@@ -27,8 +27,8 @@ In this paper, we present a zero-cost adaptation paradigm (ZeroI2V) to transfer 
 
 | Backbone |  Pretrain   | GFLOPs | Param | New Param (M) | acc@1 | Views | Checkpoint |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ViT-B/16 | CLIP | 422 | 86 | 0 | 83.0 | 8x3x1 | [checkpoint]() |
-| ViT-L/14 | CLIP | 7783 | 304 | 0 | 87.2 | 32x3x1 | [checkpoint]() |
+| ViT-B/16 | CLIP | 422 | 86 | 0 | 83.0 | 8x1x3 | [checkpoint]() |
+| ViT-L/14 | CLIP | 7783 | 304 | 0 | 87.2 | 32x1x3 | [checkpoint]() |
 
 ### Something Something V2
 

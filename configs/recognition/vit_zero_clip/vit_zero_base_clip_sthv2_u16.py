@@ -37,13 +37,13 @@ model = dict(
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_prefix = 'lxh:s3://lxhBucket/sthv2/'
+data_prefix = 'your_path/sthv2/'
 data_root = data_prefix+'videos'
 data_root_val = data_prefix+'videos'
 ann_file_train = 'data/sthv2/sthv2_train_list_videos.txt'
 ann_file_val = 'data/sthv2/sthv2_val_list_videos.txt'
 ann_file_test = 'data/sthv2/sthv2_val_list_videos.txt'
-file_client_args = dict(io_backend='petrel')
+file_client_args = dict(io_backend='disk')
 
 sthv2_flip_label_map = {86: 87, 87: 86, 93: 94, 94: 93, 166: 167, 167: 166}
 train_pipeline = [
